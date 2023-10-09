@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1696843155 "main.aux" "main.bbl" "main" 1696843156 0
-  "./gazeNet.bib" 1696842841 252 4493a1ae93d688835f171abe797c666c ""
+["bibtex main"] 1696848604 "main.aux" "main.bbl" "main" 1696850478 0
+  "./gazeNet.bib" 1696844941 934 5cdf581e9bec1cc610ed369bb9c4bb28 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1696843156 924 79e96e89ebbc76ebd7d83833cb9256d2 "pdflatex"
+  "main.aux" 1696850478 1244 bc6776b5e2b678b614d8091925dfb71e "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1696843156 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1696843156 0
-  "/home/lorenz/gazeNet_paper/main.tex" 1696843153 1216 7ddecda52077990636291ab1332a2930 ""
+["pdflatex"] 1696850477 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1696850478 0
+  "/home/lorenz/gazeNet_paper/main.tex" 1696850477 2360 5431d6470141e6b1bb8232d5b3a27bcd ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
@@ -24,9 +24,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696492248 4687556 cc47caff59523ff191c3a298fcfbfede ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696492348 8183048 28cf609d5fcce113d027e4acb94be26e ""
   "/usr/local/texlive/2023/texmf.cnf" 1696492238 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
-  "main.aux" 1696843156 924 79e96e89ebbc76ebd7d83833cb9256d2 "pdflatex"
-  "main.bbl" 1696843156 563 24ee8d77dcab6d4b4fef10d3dbe8b75a "bibtex main"
-  "main.tex" 1696843153 1216 7ddecda52077990636291ab1332a2930 ""
+  "main.aux" 1696850478 1244 bc6776b5e2b678b614d8091925dfb71e "pdflatex"
+  "main.bbl" 1696848604 734 849e6254c2ef5052a8114ee50e9fb63f "bibtex main"
+  "main.tex" 1696850477 2360 5431d6470141e6b1bb8232d5b3a27bcd ""
   (generated)
   "main.aux"
   "main.log"

@@ -1,9 +1,13 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{2}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[dee(2015)]{deep_speech_2}
+Deep speech 2: End-to-end speech recognition in english and mandarin.
+\newblock \emph{Proceedings of Machine Learning Research}, 2015.
 
 \bibitem[Zemblys et~al.(2018)Zemblys, Niehorster, and Holmqvist]{zemblys2018gazeNet}
 Raimondas Zemblys, Diederick~C Niehorster, and Kenneth Holmqvist.

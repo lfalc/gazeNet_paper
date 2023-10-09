@@ -3,44 +3,47 @@ Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: main.aux
 The style file: plainnat.bst
 Database file #1: gazeNet.bib
-You've used 1 entry,
+Warning--to sort, need author or key in deep_speech_2
+Warning--empty author in deep_speech_2
+You've used 2 entries,
             2773 wiz_defined-function locations,
-            598 strings with 5039 characters,
-and the built_in function-call counts, 446 in all, are:
-= -- 34
+            602 strings with 5164 characters,
+and the built_in function-call counts, 693 in all, are:
+= -- 58
 > -- 30
 < -- 0
-+ -- 10
++ -- 11
 - -- 9
-* -- 36
-:= -- 77
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 6
-chr.to.int$ -- 1
-cite$ -- 2
-duplicate$ -- 20
-empty$ -- 32
+* -- 55
+:= -- 101
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 9
+chr.to.int$ -- 2
+cite$ -- 7
+duplicate$ -- 39
+empty$ -- 65
 format.name$ -- 10
-if$ -- 85
+if$ -- 143
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 1
-newline$ -- 13
+missing$ -- 2
+newline$ -- 17
 num.names$ -- 4
-pop$ -- 12
+pop$ -- 22
 preamble$ -- 1
-purify$ -- 5
+purify$ -- 7
 quote$ -- 0
-skip$ -- 16
+skip$ -- 29
 stack$ -- 0
-substring$ -- 2
-swap$ -- 1
+substring$ -- 5
+swap$ -- 2
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
-warning$ -- 0
+type$ -- 22
+warning$ -- 2
 while$ -- 3
 width$ -- 0
-write$ -- 19
+write$ -- 29
+(There were 2 warnings)
