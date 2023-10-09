@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage{natbib}
+
+\begin{document}
+
+\section{Abstract}
+
+\section{Introduction}
+The use of neural networks presents a new way of event detection in eye-tracking-data. Zemblys presents gazeNet as one of the first approaches in the application of the technology.
+
+\section{gazeNet}
+Our gazeNet architecture was inspired by Deep Speech 2,
+an end-to-end speech recognition neural network (Amodei,
+Anubhai, Battenberg, Case, Casper, Catanzaro, . . . , Zhu,
+2015). gazeNet was implemented using the pyTorch6 neural
+network framework (version 0.2.0 4) and the starter code
+from Sean Naren.7
+Our network has two convolutional layers followed by
+three bi-directional recurrent layers with a fully connected
+layer on top. The convolutional layers use 2D filters with
+a size of 2 x 11 and are meant to extract deep features
+from raw input data, while the recurrent layers model event
+sequences and are responsible for detecting onsets and
+offsets of fixations, saccades and PSOs.
+\citet{zemblys2018gazeNet}
+
+\subsection{Update to Python 3}
+
+\subsection{Platform Independence}
+
+\subsection{Validation}
+
+\section{Conversion script}
+
+\bibliographystyle{plainnat}
+\bibliography{gazeNet.bib}
+\end{document}
