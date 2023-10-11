@@ -97,6 +97,10 @@ INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
 OUTPUT main.pdf
 INPUT ./images/TH34_img_Europe_labelled_MN.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl

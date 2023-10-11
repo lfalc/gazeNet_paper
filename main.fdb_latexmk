@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1697012861 "main.aux" "main.bbl" "main" 1697012865 0
+["bibtex main"] 1697014153 "main.aux" "main.bbl" "main" 1697014156 0
   "./gazeNet.bib" 1697007646 946 5cdf581e9bec1cc610ed369bb9c4bb28 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1696945783 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1697012863 1675 5ff8d486bf8af8446c716da9a9dd74d1 "pdflatex"
+  "main.aux" 1697014155 2330 31c827dace7883d8760ebcef3d705abf "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1697012862 "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" "main.pdf" "main" 1697012865 0
-  "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" 1697012857 3779 aef017b30b37d9de365586efe59147a5 ""
+["pdflatex"] 1697014154 "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" "main.pdf" "main" 1697014156 0
+  "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" 1697014150 4454 d145da8d16303d781748f9026676de2c ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1696572207 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1696572860 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1696948600 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -49,10 +49,11 @@
   "c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1696949769 4699917 e6b43f8699eba02ad748883b97fa3d58 ""
   "c:/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1696950034 8183281 778ff63948e2d12b3288098573674451 ""
   "c:/texlive/2023/texmf.cnf" 1696949743 713 e69b156964470283e0530f5060668171 ""
+  "images/Kreuze_Random Recording1_short.png" 1697009223 88642 6d973a2172f515e01b6338bddcc977fb ""
   "images/TH34_img_Europe_labelled_MN.png" 1695983473 83328 cb68d864a27caf8f1f5d7944fc4d9cb9 ""
-  "main.aux" 1697012863 1675 5ff8d486bf8af8446c716da9a9dd74d1 "pdflatex"
-  "main.bbl" 1697012862 734 849e6254c2ef5052a8114ee50e9fb63f "bibtex main"
-  "main.tex" 1697012857 3779 aef017b30b37d9de365586efe59147a5 ""
+  "main.aux" 1697014155 2330 31c827dace7883d8760ebcef3d705abf "pdflatex"
+  "main.bbl" 1697014154 734 849e6254c2ef5052a8114ee50e9fb63f "bibtex main"
+  "main.tex" 1697014150 4454 d145da8d16303d781748f9026676de2c ""
   (generated)
   "main.aux"
   "main.log"
