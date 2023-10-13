@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.10)  11 OCT 2023 10:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.10)  13 OCT 2023 09:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -180,21 +180,21 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30
  (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-** WARNING: \thanks is locked out when in conference mode (line 30).
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 52.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 52.
 <./images/TH34_img_Europe_labelled_MN.png, id=1, 722.7pt x 433.62pt>
 File: ./images/TH34_img_Europe_labelled_MN.png Graphic file (type png)
 <use ./images/TH34_img_Europe_labelled_MN.png>
-Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 55.
+Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 62.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
 <./images/Kreuze_Random Recording1_short.png, id=3, 722.7pt x 433.62pt>
 File: ./images/Kreuze_Random Recording1_short.png Graphic file (type png)
 <use ./images/Kreuze_Random Recording1_short.png>
-Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 61.
+Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 68.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-(./main.bbl)
+ (./main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -209,27 +209,27 @@ Before submitting the final camera ready copy, remember to:
 [1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./images/TH34_img_Europe_labelled_MN.png>] [2
+] [2
 
- <./images/Kreuze_Random Recording1_short.png>] (./main.aux)
+ <./images/TH34_img_Europe_labelled_MN.png> <./images/Kreuze_Random Recording1_short.png>] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2539 strings out of 474928
- 44126 string characters out of 5763561
- 1931785 words of memory out of 5000000
- 24108 multiletter control sequences out of 15000+600000
+ 2544 strings out of 474928
+ 44230 string characters out of 5763561
+ 1933785 words of memory out of 5000000
+ 24113 multiletter control sequences out of 15000+600000
  588979 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,777b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 150767 bytes).
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 159957 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 14 compressed objects within 1 object stream
+ 32 PDF objects out of 1000 (max. 8388607)
+ 17 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

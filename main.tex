@@ -5,7 +5,7 @@
 
 \begin{document}
 \title{Update for gazeNet\\
-\thanks{Identify applicable funding agency here. If none, delete this.}
+% \thanks{Identify applicable funding agency here. If none, delete this.}
 }
 
 \author{\IEEEauthorblockN{1\textsuperscript{st} Lorenz Falcioni}
@@ -46,18 +46,25 @@ The presented framework gazeNet consists of various scripts written in python wh
 
 
 \subsection{Update to gazeNet 1.1}
-\subsection{Update to Python 3}
-
+\subsection{Update to Python 3.7.3}
+The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4. Since then many changes have been made to the Python interpreter as well as the PyTorch framework. Modifications to the original code were necessary to make it compatible with the current versions of Python and PyTorch. The following changes were made to the original code:
+\begin{itemize}
+    \item print is now a function; therefore it requires parentheses
+    \item the division operator / now returns a float instead of an integer; the floor division operator // returns an integer
+    \item for loops do not require an iterator variable anymore
+    \item in-place-modifications of ordered dictionaries are not allowed anymore; instead a copy of the dictionary has to be created
+\end{itemize}
+Further changes 
 \subsection{Platform Independence}
 
 \subsection{Validation of gazeNet 1.1}
-\begin{figure}[h]
+\begin{figure}[ht]
     \includegraphics[width=\linewidth]{TH34_img_Europe_labelled_MN}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations.}
 \end{figure}
 
 \section{Conversion script}
-\begin{figure}[h]
+\begin{figure}[ht]
     \includegraphics[width=\linewidth]{Kreuze_Random Recording1_short}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations. It shoud be noted that the first two seconds of the recording contain the calibration points of the eye tracker. The calibration process contains events on which gazeNet is not trained. Therefore the labelling is insignificant.}
 \end{figure}

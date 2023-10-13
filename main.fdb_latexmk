@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1697014153 "main.aux" "main.bbl" "main" 1697014156 0
-  "./gazeNet.bib" 1697007646 946 5cdf581e9bec1cc610ed369bb9c4bb28 ""
+["bibtex main"] 1697181405 "main.aux" "main.bbl" "main" 1697181408 0
+  "./gazeNet.bib" 1697180196 525 8c4eb1b088972747ed4f3e5e4df57736 ""
   "c:/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1696945783 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1697014155 2330 31c827dace7883d8760ebcef3d705abf "pdflatex"
+  "main.aux" 1697181407 2375 0e4af25ff348a7322b112ca992b69b31 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1697014154 "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" "main.pdf" "main" 1697014156 0
-  "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" 1697014150 4454 d145da8d16303d781748f9026676de2c ""
+["pdflatex"] 1697181406 "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" "main.pdf" "main" 1697181408 0
+  "c:/Users/Lorenz/Documents/gazeNet_paper/main.tex" 1697181401 5256 5cf854557c577375535493a63bfd4101 ""
   "c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1696572207 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1696572860 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1696948600 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -25,6 +25,7 @@
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1696571354 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1696571354 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1696571354 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1696570115 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb" 1696948600 46026 687528a208fbfc1f00832bb96cccebbb ""
   "c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb" 1696948600 45458 504e2b06fa82109d168c7a0afb09e145 ""
   "c:/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf" 1696948600 1380 0ea3a3370054be6da6acd929ec569f06 ""
@@ -51,9 +52,9 @@
   "c:/texlive/2023/texmf.cnf" 1696949743 713 e69b156964470283e0530f5060668171 ""
   "images/Kreuze_Random Recording1_short.png" 1697009223 88642 6d973a2172f515e01b6338bddcc977fb ""
   "images/TH34_img_Europe_labelled_MN.png" 1695983473 83328 cb68d864a27caf8f1f5d7944fc4d9cb9 ""
-  "main.aux" 1697014155 2330 31c827dace7883d8760ebcef3d705abf "pdflatex"
-  "main.bbl" 1697014154 734 849e6254c2ef5052a8114ee50e9fb63f "bibtex main"
-  "main.tex" 1697014150 4454 d145da8d16303d781748f9026676de2c ""
+  "main.aux" 1697181407 2375 0e4af25ff348a7322b112ca992b69b31 "pdflatex"
+  "main.bbl" 1697181406 837 c4fbd8531a41dc344695467fa544d37a "bibtex main"
+  "main.tex" 1697181401 5256 5cf854557c577375535493a63bfd4101 ""
   (generated)
   "main.aux"
   "main.log"
