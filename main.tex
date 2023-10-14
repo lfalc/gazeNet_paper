@@ -35,7 +35,7 @@ Furthermore an interface is provided to facilitate the application of the pretra
 
 
 \section{Introduction}
-The use of neural networks presents a new way of event detection in eye-tracking-data. \citet{zemblys2018gazeNet} presents gazeNet as one of the first approaches in the application of the technology. As much as the work of \citet*{zemblys2018gazeNet} represents a milestone in the evaluation of eye-tracking-data, since usability was not a priority, the use of gazeNet can be cumbersome, as it requires operation via a commandline and knowledge about the data structure being used.
+The use of neural networks presents a new way of event detection in eye-tracking-data. \citet{zemblys2018gazeNet} presents gazeNet as one of the first approaches in the application of the technology. As much as the work of \citet*{zemblys2018gazeNet} represents a milestone in the evaluation of eye-tracking-data, since usability was not a priority, the use of gazeNet can be cumbersome, as it requires operation via commandline and knowledge about the data structure being used.
 
 
 \section{gazeNet}
@@ -43,6 +43,7 @@ The original gazeNet architecture by \citet{zemblys2018gazeNet} was inspired by 
 
 The presented framework gazeNet consists of various scripts written in python which allow the user to prepare raw data, augment data, train gazeNet and evaluate raw data.
 
+\subsection{ETData}
 
 
 \subsection{Update to gazeNet 1.1}
@@ -54,8 +55,10 @@ The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4. Since 
     \item for loops do not require an iterator variable anymore
     \item in-place-modifications of ordered dictionaries are not allowed anymore; instead a copy of the dictionary has to be created
 \end{itemize}
-Further changes 
+Minor changes have been made in order to comply with PyTorch 2.1 regarding datatypes.
+
 \subsection{Platform Independence}
+
 
 \subsection{Validation of gazeNet 1.1}
 \begin{figure}[ht]
@@ -64,6 +67,10 @@ Further changes
 \end{figure}
 
 \section{Conversion script}
+In order to allow maximum flexibility for future users of gazeNet a script is provided which converts .csv/.tsv eye tracking data files into the proprietary datatype ETData used by gazeNet. The script works on both Windows and UNIX-like operating systems thanks to pathlib which handles path and file names. Even though slight modification may be necessary, the given script should provide a usefull template for the preparation of similarly formatted gaze recordings.
+
+In this particular case the file to be converted stems from an eye tracker made by Tobii. Each sample of the recording is stored in a separate row. The gaze coordinates are stored in the columns "Gaze point X" and "Gaze point Y" in cartesian form as pixels and can therefore be used as they are. The custom datatype requires information about the geometry of the test setup in order to internally convert the cartesian coordinates to polar coordinates. As of now these parameters are hardcoded in the script. Finally invalid samples are filtered.
+
 \begin{figure}[ht]
     \includegraphics[width=\linewidth]{Kreuze_Random Recording1_short}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations. It shoud be noted that the first two seconds of the recording contain the calibration points of the eye tracker. The calibration process contains events on which gazeNet is not trained. Therefore the labelling is insignificant.}

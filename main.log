@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.10)  13 OCT 2023 09:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  13 OCT 2023 14:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Lorenz/Documents/gazeNet_paper/main.tex
-(c:/Users/Lorenz/Documents/gazeNet_paper/main.tex
+**/home/lorenz/gazeNet_paper/main.tex
+(/home/lorenz/gazeNet_paper/main.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(c:/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 -- See the "IEEEtran_HOWTO" manual for usage information.
 -- http://www.michaelshell.org/tex/ieeetran/
@@ -19,7 +19,7 @@ Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
 \@IEEEtrantmpcountC=\count187
 \@IEEEtrantmptoksA=\toks17
 LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 503.
-(c:/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 -- Using 8.5in x 11in (letter) paper.
@@ -103,31 +103,31 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \IEEEPARstartletwidth=\dimen163
 \c@IEEEbiography=\count199
 \@IEEEtranrubishbin=\box52
-) (c:/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count266
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks18
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
-) (c:/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count267
 \l__pdf_internal_box=\box53
@@ -150,7 +150,7 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 
 -- Lines per column: 56 (exact).
-(c:/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count268
 \scratchdimen=\dimen166
@@ -163,10 +163,10 @@ LaTeX Font Info:    ... okay on input line 6.
 \MPnumerator=\count272
 \makeMPintoPDFobject=\count273
 \everyMPtoPDFconversion=\toks20
-) (c:/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    Calculating math sizes for size <11> on input line 30.
@@ -177,22 +177,26 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5.5> on input line 30.
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 30.
- (c:/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 52.
+(Font)              <7> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 53.
 <./images/TH34_img_Europe_labelled_MN.png, id=1, 722.7pt x 433.62pt>
 File: ./images/TH34_img_Europe_labelled_MN.png Graphic file (type png)
 <use ./images/TH34_img_Europe_labelled_MN.png>
-Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 62.
+Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 65.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
-<./images/Kreuze_Random Recording1_short.png, id=3, 722.7pt x 433.62pt>
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+
+
+]
+<./images/Kreuze_Random Recording1_short.png, id=11, 722.7pt x 433.62pt>
 File: ./images/Kreuze_Random Recording1_short.png Graphic file (type png)
 <use ./images/Kreuze_Random Recording1_short.png>
-Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 68.
+Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 75.
 (pdftex.def)             Requested size: 252.0pt x 151.20026pt.
  (./main.bbl)
 
@@ -206,10 +210,7 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[1{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
-
-
-] [2
+[2
 
  <./images/TH34_img_Europe_labelled_MN.png> <./images/Kreuze_Random Recording1_short.png>] (./main.aux)
  ***********
@@ -219,14 +220,14 @@ L3 programming layer <2023-08-29>
  ) 
 Here is how much of TeX's memory you used:
  2544 strings out of 474928
- 44230 string characters out of 5763561
- 1933785 words of memory out of 5000000
+ 44487 string characters out of 5759533
+ 1933791 words of memory out of 5000000
  24113 multiletter control sequences out of 15000+600000
  588979 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,777b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 159957 bytes).
+ 57i,11n,65p,764b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (2 pages, 161450 bytes).
 PDF statistics:
  32 PDF objects out of 1000 (max. 8388607)
  17 compressed objects within 1 object stream
