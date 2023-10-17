@@ -92,11 +92,7 @@ INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmri8c.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmrc7t.tfm
-INPUT ./images/TH34_img_Europe_labelled_MN.png
-INPUT ./images/TH34_img_Europe_labelled_MN.png
-INPUT ./images/TH34_img_Europe_labelled_MN.png
 OUTPUT main.pdf
-INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -116,6 +112,10 @@ INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/TH34_img_Europe_labelled_MN.png
+INPUT ./images/TH34_img_Europe_labelled_MN.png
+INPUT ./images/TH34_img_Europe_labelled_MN.png
+INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
