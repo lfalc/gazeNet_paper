@@ -29,21 +29,23 @@ juergen.mottok@oth-regensburg.de}
 
 \maketitle
 \section{Abstract}
-gazeNet is a new framework for creating event detectors. The primary objective of this work is the update of the existing gazeNet by \citet{zemblys2018gazeNet} to current standards. In modifications this includes both in the used programming language i.e. Python2 to Python3 as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines.
-
-Furthermore an interface is provided to facilitate the application of the pretrained gazeNet. This is done by providiong a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet.
+The application of deep learning techiques in the field of eye tracking data analysis has brought forth gazeNet, a ``framework for creating event detectors that do not require hand-crafted signal
+features or signal thresholding". \citet{zemblys2018gazeNet} Despite the authors presenting the algorithm as a ``proof of concept'' \citet{zemblys2018gazeNet}, the pretrained model spawned in the process is kindly provided by the authors free to use. The primary objective of this work is streamlining the usage of this model. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python2 to Python3 as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye tracking data serves as a complement to the original framework facilitating the application in future research.
 
 
 \section{Introduction}
-The use of neural networks presents a new way of event detection in eye-tracking-data. \citet{zemblys2018gazeNet} presents gazeNet as one of the first approaches in the application of the technology. As much as the work of \citet*{zemblys2018gazeNet} represents a milestone in the evaluation of eye-tracking-data, since usability was not a priority, the use of gazeNet can be cumbersome, as it requires operation via commandline and knowledge about the data structure being used.
+Deep learning in the field of eye tracking event detection has recently appeared as an advanced use of machine learning. The work of \citet*{zemblys2018gazeNet} ``presents the algorithm as a proof of concept, and is not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \citet*{zemblys2018gazeNet} Moreover the use of gazeNet can be cumbersome, as it requires knowledge about the data structure being used.
+
+This work aims to take the first step towards a more user-friendly interface for the \emph{application} of gazeNet. This is done by providing a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet and modifying the partly outdated code.
 
 
 \section{gazeNet}
-The original gazeNet architecture by \citet{zemblys2018gazeNet} was inspired by Deep Speech 2 \citeauthor{deep_speech_2}, an end-to-end speech recognition neural network. gazeNet was implemented using the pyTorch6 neural network framework (version 0.2.0 4) and the starter code from Sean Naren.7 Our network has two onvolutional layers followed by three bidirectional recurrent layers with a fully connected layer on top. The convolutional layers use 2D filters with a size of 2 x 11 and are meant to extract deep features from raw input data, while the recurrent layers model event sequences and are responsible for detecting onsets and offsets of fixations, saccades and PSOs. \citet{zemblys2018gazeNet}
+The original gazeNet architecture by \citet{zemblys2018gazeNet} was inspired by Deep Speech 2 \citeauthor{deep_speech_2}, an end-to-end speech recognition neural network. gazeNet was implemented using the pyTorch6 neural network framework (version 0.2.0 4) and the starter code from Sean Naren.7 Our network has two convolutional layers followed by three bidirectional recurrent layers with a fully connected layer on top. The convolutional layers use 2D filters with a size of 2 x 11 and are meant to extract deep features from raw input data, while the recurrent layers model event sequences and are responsible for detecting onsets and offsets of fixations, saccades and PSOs. \citet{zemblys2018gazeNet}
 
 The presented framework gazeNet consists of various scripts written in python which allow the user to prepare raw data, augment data, train gazeNet and evaluate raw data.
 
 \subsection{ETData}
+The ETData class defines a data type using the np.dtype function from the NumPy library. The data type contains fields for the time stamp, x and y coordinates of the eye position, a status flag indicating whether the data is valid or not, and an event code indicating the type of eye movement (e.g. fixation, saccade, etc.). The evt\_color\_map dictionary maps event codes to colors that can be used to plot the eye movements.
 
 
 \subsection{Update to gazeNet 1.1}
