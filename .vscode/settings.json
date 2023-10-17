@@ -1,9 +1,14 @@
 {
     "cSpell.words": [
         "convolutional",
+        "datatypes",
+        "pathlib",
         "pretrained",
         "saccade",
+        "saccades",
+        "saccadic",
         "thresholding",
+        "Tobii",
         "zemblys"
     ]
 }
