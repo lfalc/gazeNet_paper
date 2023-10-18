@@ -60,7 +60,7 @@ The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4. Since 
 Minor changes have been made in order to comply with PyTorch 2.1 regarding datatypes. Other packages used in the original code have not caused any problems. Nevertheless a requirement file has been provided to ensure that the user has the correct versions of the packages installed.
 
 \subsection{Platform Independence}
-
+Hardware acceleration can be used by gazeNet to speed up the training process. In this context worker threads are being used to load data in parallel to keep the GPU busy reducing time consumption even further. In order to achieve platform independence the default number of worker threads in data loading has been set to 0. While strictly speaking this change is not a necessity as the number of worker threads can be set via command line, it is worthwhile making, as the old default value of 1 causes problems on Windows machines due to collisions. For inexperienced users this change avoids a potential source of error.
 \subsection{Conversion script}
 In order to allow maximum flexibility for future users of gazeNet a script is provided which converts .csv/.tsv eye tracking data files into the proprietary datatype ETData used by gazeNet. The script works on both Windows and UNIX-like operating systems thanks to pathlib which handles path and file names. Even though slight modification may be necessary, the given script should provide a useful template for the preparation of similarly formatted gaze recordings.
 
