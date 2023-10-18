@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1697561032 "main.aux" "main.bbl" "main" 1697561077 0
+["bibtex main"] 1697561032 "main.aux" "main.bbl" "main" 1697612800 0
   "./gazeNet.bib" 1697196609 513 8c4eb1b088972747ed4f3e5e4df57736 ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1697561076 2531 b9b289b508a8eee70bf5f4576f8dad79 "pdflatex"
+  "main.aux" 1697612800 2531 b9b289b508a8eee70bf5f4576f8dad79 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1697561076 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1697561077 0
-  "/home/lorenz/gazeNet_paper/main.tex" 1697561076 7319 02098541a06685378f3c737f147c7929 ""
+["pdflatex"] 1697612799 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1697612800 0
+  "/home/lorenz/gazeNet_paper/main.tex" 1697612798 7516 19607419d691975a8a8e8eae3c6d56d3 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -52,9 +52,9 @@
   "/usr/local/texlive/2023/texmf.cnf" 1696492238 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "images/Kreuze_Random Recording1_short.png" 1697016522 88642 2cfc178223bad493bb77fe2a5300738d ""
   "images/TH34_img_Europe_labelled_MN.png" 1697016522 83328 3b0e30f99cbce9a359eb8ed7f1a99525 ""
-  "main.aux" 1697561076 2531 b9b289b508a8eee70bf5f4576f8dad79 "pdflatex"
+  "main.aux" 1697612800 2531 b9b289b508a8eee70bf5f4576f8dad79 "pdflatex"
   "main.bbl" 1697561032 837 c4fbd8531a41dc344695467fa544d37a "bibtex main"
-  "main.tex" 1697561076 7319 02098541a06685378f3c737f147c7929 ""
+  "main.tex" 1697612798 7516 19607419d691975a8a8e8eae3c6d56d3 ""
   (generated)
   "main.aux"
   "main.log"
