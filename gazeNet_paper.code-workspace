@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../gazeNet"
+		}
+	],
+	"settings": {
+		"cSpell.words": [
+			"saccades",
+			"thresholding"
+		]
+	}
+}
