@@ -35,7 +35,11 @@ features or signal thresholding". \citet{zemblys2018gazeNet} Despite the authors
 
 
 \section{Introduction}
-Deep learning in the field of eye-tracking event detection has recently appeared as an advanced use of machine learning. The work of \citet*{zemblys2018gazeNet} ``presents the algorithm as a proof of concept, and is not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \citet*{zemblys2018gazeNet} Moreover the use of gazeNet can be cumbersome, as it requires knowledge about the data structure being used.
+A core aspect of eye-tracking research is \emph{event detection}, meaning the classification of sections of eye-tracking data into different types of eye movements such as fixations and saccades. For the longest time eye-tracking data analysis has relied mainly on "traditional" algorithms, which are based on hand-crafted features and thresholds. \citet{zemblys2018gazeNet} 
+
+Deep learning in the field of eye-tracking event detection has only recently appeared in the works of \citefullauthor{Hoppe2016EndtoEndEM} as means of training a neural network. While \citefullauthor{Hoppe2016EndtoEndEM} ``use a Fast Fourier transform to extract a number of frequency components (features) first and then use these as input to their algorithm'' \cite{Hoppe2016EndtoEndEM}, \citet{zemblys2018gazeNet} have taken this approach one step further by creating an entire \emph{framework} for the creation of event detectors that do not require hand-crafted signal features or signal thresholding.
+
+\citet{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \citet*{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation.
 
 This work aims to take the first step towards a more user-friendly interface for the \emph{application} of gazeNet. This is done by providing a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet and modifying the partly outdated code.
 
