@@ -1,4 +1,4 @@
-\begin{thebibliography}{3}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -15,6 +15,16 @@ Sabrina Hoppe and Andreas Bulling.
 \newblock End-to-end eye movement detection using convolutional neural networks.
 \newblock \emph{ArXiv}, abs/1609.02452, 2016.
 \newblock URL \url{https://api.semanticscholar.org/CorpusID:5938282}.
+
+\bibitem[PyTorch(2023)]{Contributors_2023}
+Contributors PyTorch.
+\newblock Pytorch documentation, 2023.
+\newblock URL \url{https://pytorch.org/docs/stable/index.html}.
+
+\bibitem[van Rossum(2009)]{van_Rossum_2009}
+Guido van Rossum.
+\newblock Whats new in python 3.0, Feb 2009.
+\newblock URL \url{https://docs.python.org/3.0/whatsnew/3.0.html#overview-of-syntax-changes}.
 
 \bibitem[Zemblys et~al.(2018)Zemblys, Niehorster, and Holmqvist]{zemblys2018gazeNet}
 Raimondas Zemblys, Diederick~C Niehorster, and Kenneth Holmqvist.

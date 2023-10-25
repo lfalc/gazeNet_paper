@@ -59,12 +59,25 @@ The ETData class defines a data type using the np.dtype function from the NumPy 
 
 
 \subsection{Update to Python 3.7.3}
-The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4. Since then many changes have been made to the Python interpreter as well as the PyTorch framework. Modifications to the original code were necessary to make it compatible with the current versions of Python and PyTorch. The following changes were made to the original code:
+The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4 \cite{zemblys2018gazeNet}. Since then, many changes have been made to the Python interpreter as well as the PyTorch framework. Especially, the major release to 3.0 has brought many changes, since it ``is the first ever intentional backwards incompatible Python release" \cite{van_Rossum_2009}. Modifications to the original code were necessary to make it compatible with the current versions of Python (3.12.0) and PyTorch (2.1). The following changes were made to the original code:
+
 \begin{itemize}
-    \item print is now a function; therefore it requires parentheses
-    \item the division operator / now returns a float instead of an integer; the floor division operator // returns an integer
-    \item for loops do not require an iterator variable anymore
-    \item in-place-modifications of ordered dictionaries are not allowed anymore; instead a copy of the dictionary has to be created
+    \item Since Python 3.0 the \verb|print| statement is a function. Therefore parentheses are required around the arguments. \cite{van_Rossum_2009}
+    
+    Example in utils.py: Line 68 has been changed from \verb|print "TRAINING PARAMETERS CHANGED"| into \verb|print("TRAINING PARAMETERS CHANGED")|.
+
+    \item The division operator \verb|/| returns a float instead of an integer since Python 3.0. This causes an error in model.py line 174 when calculating the padding for the convolutional stack of the neural network, as PyTorch expects an integer. \cite{Contributors_2023} In order to meet the requirements of the framework the floor division operator \verb|//| is used, which returns an integer. \cite{van_Rossum_2009}
+    
+    \item Python 3.0 has seen a major overhaul of the dictionary data type. In-place-modifications of dictionaries are not possible anymore. Therefore in model.py line 48 a copy of the dictionary is created which the replaces the original dictionary.
+    
+    In tt\_spit.py line 274 a copy of the dictionary is created to avoid modifying the original dictionary while iterating over it.
+    \cite{van_Rossum_2009}
+    
+    \item The syntax for checking if a key is in a dictionary has changed since Python 3.0. The \verb|has_key()| method has been removed. Instead the \verb|in| operator is used. This change has been made several times in the code of the framework. For example in model.py line 53 the statement \verb|package['state_dict'].has_key(k)| has been replaced by \verb|k in package['state_dict']|. See also ETeval.py line 180 and the following and etdata.py line 177.
+    \cite{van_Rossum_2009}
+
+    \item Further simplification has been applied to \verb|for| loops. The \verb|iteritems()| method has been removed from the dictionary data type since Python 3.0. Instead the \verb|items()| method is used. In etdata.py line 265 the statement \verb|self.data.iteritems():| has been replaced by \verb|self.data.items():|.
+    
 \end{itemize}
 Minor changes have been made in order to comply with PyTorch 2.1 regarding datatypes. Other packages used in the original code have not caused any problems. Nevertheless a requirement file has been provided to ensure that the user has the correct versions of the packages installed.
 
