@@ -54,7 +54,7 @@ The training process of gazeNet relies heavily on the generation of synthetic tr
 Thankfully the authors provide the pretrained model stemming from the Lund2013 dataset free to use. Our work is centered around this pretrained model.
 
 \subsection{ETData}
-The ETData class defines a data type using the np.dtype function from the NumPy library. The data type contains fields for the time stamp, x and y coordinates of the eye position, a status flag indicating whether the data is valid or not, and an event code indicating the type of eye movement (e.g. fixation, saccade, etc.). The evt\_color\_map dictionary maps event codes to colors that can be used to plot the eye movements.
+The ETData class is a custom datatype used by gazeNet to store eye-tracking data. The class is defined in the etdata.py file and is derived from the \verb|np.ndarray| class from the NumPy library. The data type contains fields for the time stamp, x and y coordinates of the eye position, a status flag indicating whether the data is valid or not, and an event code indicating the type of eye movement (e.g. fixation, saccade, etc.). The evt\_color\_map dictionary maps event codes to colors that can be used to plot the eye movements.
 
 
 \subsection{Update to Python 3.7.3}
@@ -81,7 +81,13 @@ The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4 \cite{z
 Minor changes have been made in order to comply with PyTorch 2.1 regarding datatypes. Other packages used in the original code have not caused any problems. Nevertheless a requirement file has been provided to ensure that the user has the correct versions of the packages installed.
 
 \subsection{Platform Independence}
-Hardware acceleration can be used by gazeNet to speed up the training process. In this context worker threads are being used to load data in parallel to keep the GPU busy reducing time consumption even further. In order to achieve platform independence the default number of worker threads in data loading has been set to 0. While strictly speaking this change is not a necessity as the number of worker threads can be set via command line, it is worthwhile making, as the old default value of 1 causes problems on Windows machines due to collisions. For inexperienced users this change avoids a potential source of error.
+Hardware acceleration based on Nvidia Cuda is implemented in gazeNet to speed up the training process.In this context worker threads are used to load data in parallel to keep the GPU busy, reducing time consumption even further. In order to achieve platform independence the default number of worker threads in data loading has been set to 0. While strictly speaking this change is not a necessity as the number of worker threads can be set via command line, it is worthwhile making for several reasons. Most importantly the use of hardware acceleration requires the user to have a Nvidia GPU in their system. This is not always the case and should therefore not be assumed to be the case.
+
+Secondly, most of the users of gazeGet will be expected to use the pretrained model, labelling their eye-tracking data, instead of training their own model. While hardware acceleration is also implemented in the class for labeling data, it has a decisive impact only when training a new model, because the process of labelling is much less computationally intensive. Reduction of time consumption would be negligible and make hardware acceleration not as crucial.
+
+Lastly, having a worker thread activated causes the evaluation script run\_gazeNet.py to crash on Windows machines, due to collisions of processes. For inexperienced users this change avoids a potential source of error, which can be hard to debug.
+
+In summary hardware acceleration would be a nice feature to have, but would need to be implemented in a way that does not cause problems on Windows machines and supports a broader variety of hardware configurations, which is beyond the scope of this work.
 
 \begin{figure*}
     \centering

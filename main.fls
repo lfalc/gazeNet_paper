@@ -182,16 +182,16 @@ INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/courier/pcrr7t.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
