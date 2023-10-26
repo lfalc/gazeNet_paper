@@ -76,7 +76,7 @@ Thankfully the authors provide the pretrained model stemming from the Lund2013 d
 The ETData class is a custom datatype used by gazeNet to store eye-tracking data. The class is defined in the etdata.py file and is derived from the \verb|np.ndarray| class from the NumPy library. The data type contains fields for the time stamp, x and y coordinates of the eye position, a status flag indicating whether the data is valid or not, and an event code indicating the type of eye movement (e.g. fixation, saccade, etc.). The evt\_color\_map dictionary maps event codes to colors that can be used to plot the eye movements.
 
 
-\subsection{Update to Python 3.7.3}
+\subsection{Update to Python 3.7.3 and PyTorch 2.1}
 The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4 \cite{zemblys2018gazeNet}. Since then, many changes have been made to the Python interpreter as well as the PyTorch framework. Especially, the major release to 3.0 has brought many changes, since it ``is the first ever intentional backwards incompatible Python release" \cite{van_Rossum_2009}. Modifications to the original code were necessary to make it compatible with the current versions of Python (3.12.0) and PyTorch (2.1). The following changes were made to the original code:
 
 \begin{itemize}
