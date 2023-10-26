@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1698332143 "main.aux" "main.bbl" "main" 1698332144 0
-  "./gazeNet.bib" 1698223317 1359 6612ce5904d572bcca9277557d603adf ""
-  "/usr/local/texlive/2023/texmf-dist/bibtex/bst/natbib/plainnat.bst" 1233624470 26816 ffe5423d2019860bad9f54bc402fac15 ""
-  "main.aux" 1698332143 4565 4ea22b92d8b9f01f3e00fc766b212b25 "pdflatex"
+["bibtex main"] 1698337461 "main.aux" "main.bbl" "main" 1698337740 0
+  "./gazeNet.bib" 1698336415 1359 6612ce5904d572bcca9277557d603adf ""
+  "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
+  "main.aux" 1698337740 4444 b3829699ff0cd16b000ffea4a07623ca "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1698332143 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1698332144 0
-  "/home/lorenz/gazeNet_paper/main.tex" 1698332141 17514 3d611498d20ba09a4e1e7fbefe5e11ce ""
+["pdflatex"] 1698337739 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1698337740 0
+  "/home/lorenz/gazeNet_paper/main.tex" 1698337739 17333 3e39bb756e2dc6faad3da4a84724c3a9 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -75,7 +75,6 @@
   "/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def" 1681935207 29940 9473d58112bc8a88f5505b823a053dde ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty" 1575499565 5766 13a9e8766c47f30327caf893ece86ac8 ""
-  "/usr/local/texlive/2023/texmf-dist/tex/latex/natbib/natbib.sty" 1291685959 45456 1c8843383c0bd05870c45fa0ebea6cc2 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd" 1137110629 619 96f56dc5d1ef1fe1121f1cfeec70ee0c ""
@@ -88,10 +87,10 @@
   "/usr/local/texlive/2023/texmf.cnf" 1696492238 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "images/Kreuze_Random Recording1_short.png" 1697016522 88642 2cfc178223bad493bb77fe2a5300738d ""
   "images/TH34_img_Europe_labelled_MN.png" 1697016522 83328 3b0e30f99cbce9a359eb8ed7f1a99525 ""
-  "main.aux" 1698332143 4565 4ea22b92d8b9f01f3e00fc766b212b25 "pdflatex"
-  "main.bbl" 1698332143 1496 f0b788e302109d30b5c335c464f6330f "bibtex main"
-  "main.out" 1698332143 1726 fc985a1f0b4b89112bb5711876e4942e "pdflatex"
-  "main.tex" 1698332141 17514 3d611498d20ba09a4e1e7fbefe5e11ce ""
+  "main.aux" 1698337740 4444 b3829699ff0cd16b000ffea4a07623ca "pdflatex"
+  "main.bbl" 1698337461 768 6afd4e6f95c5b422f40f85a5f58cbd35 "bibtex main"
+  "main.out" 1698337740 1821 62ef0408c692d8a082430cfe6db40e8c "pdflatex"
+  "main.tex" 1698337739 17333 3e39bb756e2dc6faad3da4a84724c3a9 ""
   (generated)
   "main.aux"
   "main.log"

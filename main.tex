@@ -1,5 +1,4 @@
 \documentclass[conference]{IEEEtran}
-\usepackage{natbib}
 \usepackage{graphicx}
 \usepackage{hyperref}
 \usepackage{dblfloatfix}
@@ -14,7 +13,7 @@
 \textsuperscript{st} Lorenz Falcioni}
 \IEEEauthorblockA{
 \textit{Faculty of EE and IT} \\
-\textit{Ostbayerische Technische Hochschule Regensburg}\\
+\textit{OTH Regensburg}\\
 Regensburg, Germany \\
 lorenz2.falcioni@st.oth-regensburg.de}
 
@@ -23,7 +22,7 @@ lorenz2.falcioni@st.oth-regensburg.de}
 \textsuperscript{nd} Timur Ezer}
 \IEEEauthorblockA{
 \textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{Ostbayerische Technische Hochschule Regensburg}\\
+\textit{OTH Regensburg}\\
 Regensburg, Germany \\
 timur.ezer@oth-regensburg.de}
 
@@ -32,7 +31,7 @@ timur.ezer@oth-regensburg.de}
 \textsuperscript{rd} Jürgen Mottok}
 \IEEEauthorblockA{
 \textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{Ostbayerische Technische Hochschule Regensburg}\\
+\textit{OTH Regensburg}\\
 Regensburg, Germany \\
 juergen.mottok@oth-regensburg.de}
 
@@ -41,7 +40,7 @@ juergen.mottok@oth-regensburg.de}
 \textsuperscript{rd} Max Mustermann}
 \IEEEauthorblockA{
 \textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{Ostbayerische Technische Hochschule Regensburg}\\
+\textit{OTH Regensburg}\\
 Regensburg, Germany \\
 max.mustermann@oth-regensburg.de}
 }
@@ -49,15 +48,15 @@ max.mustermann@oth-regensburg.de}
 
 \maketitle
 \section{Abstract}
-The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a ``framework for creating event detectors that do not require hand-crafted signal features or signal thresholding". \citet{zemblys2018gazeNet} Despite the authors presenting the algorithm as a ``proof of concept'' \citet{zemblys2018gazeNet}, the pretrained model spawned in the development process of the  framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
+The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a ``framework for creating event detectors that do not require hand-crafted signal features or signal thresholding". \cite{zemblys2018gazeNet} Despite the authors presenting the algorithm as a ``proof of concept'' \cite{zemblys2018gazeNet}, the pretrained model spawned in the development process of the  framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
 
 
 \section{Introduction}
-A core aspect of eye-tracking research is \emph{event detection}, meaning the classification of sections of eye-tracking data into different types of eye movements such as fixations and saccades. For the longest time eye-tracking data analysis has relied mainly on "traditional" algorithms, which are based on hand-crafted features and thresholds. \citet{zemblys2018gazeNet} 
+A core aspect of eye-tracking research is \emph{event detection}, meaning the classification of sections of eye-tracking data into different types of eye movements such as fixations and saccades. For the longest time eye-tracking data analysis has relied mainly on "traditional" algorithms, which are based on hand-crafted features and thresholds. \cite{zemblys2018gazeNet} 
 
-Deep learning in the field of eye-tracking event detection has only recently appeared in the works of \citefullauthor{Hoppe2016EndtoEndEM} as means of training a neural network. While \citefullauthor{Hoppe2016EndtoEndEM} ``use a Fast Fourier transform to extract a number of frequency components (features) first and then use these as input to their algorithm'' \cite{Hoppe2016EndtoEndEM}, \citet{zemblys2018gazeNet} have taken this approach one step further by creating an entire \emph{framework} for the creation of event detectors that do not require hand-crafted signal features or signal thresholding.
+Deep learning in the field of eye-tracking event detection has only recently appeared in the works of \cite{Hoppe2016EndtoEndEM} as means of training a neural network. While \cite{Hoppe2016EndtoEndEM} ``use a Fast Fourier transform to extract a number of frequency components (features) first and then use these as input to their algorithm'' \cite{Hoppe2016EndtoEndEM}, \cite{zemblys2018gazeNet} have taken this approach one step further by creating an entire \emph{framework} for the creation of event detectors that do not require hand-crafted signal features or signal thresholding.
 
-\citet{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \citet*{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation.
+\cite{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \cite*{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation.
 
 This work aims to take the first step towards a more user-friendly interface for the \emph{application} of gazeNet. This is done by providing a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet and modifying the partly outdated code.
 
@@ -122,9 +121,9 @@ In order to allow maximum flexibility for future users of gazeNet a script is pr
 In this particular case the file to be converted stems from an eye tracker made by Tobii. Each sample of the recording is stored in a separate row. The gaze coordinates are stored in the columns "Gaze point X" and "Gaze point Y" in cartesian form as pixels and can therefore be used as they are. The custom datatype requires information about the geometry of the test setup in order to internally convert the cartesian coordinates to polar coordinates. As of now these parameters are hardcoded in the script. Finally invalid samples are filtered.
 
 \subsection{Validation of gazeNet 0.1}
-In \citet{zemblys2018gazeNet} the authors rely heavily on the lund2013-image-test dataset in the development of their framework, which makes it a good choice for validation of the updated gazeNet. Figure \ref{fig:lund2013} shows the output of gazeNet 0.1 on the lund2013-image-test dataset. The results are comparable to the results presented in \citet{zemblys2018gazeNet}. 
+In \cite{zemblys2018gazeNet} the authors rely heavily on the lund2013-image-test dataset in the development of their framework, which makes it a good choice for validation of the updated gazeNet. Figure \ref{fig:lund2013} shows the output of gazeNet 0.1 on the lund2013-image-test dataset. The results are comparable to the results presented in \cite{zemblys2018gazeNet}. 
 
-The working of the conversion script has been shown on a recording of a participant looking at randomly appearing crosses on a screen. Figure \ref{fig:kreuze} shows the output of gazeNet 0.1 on the recording. The results are comparable to the results presented in \citet{zemblys2018gazeNet}.
+The working of the conversion script has been shown on a recording of a participant looking at randomly appearing crosses on a screen. Figure \ref{fig:kreuze} shows the output of gazeNet 0.1 on the recording. The results are comparable to the results presented in \cite{zemblys2018gazeNet}.
 
 \begin{figure*}
     \centering
@@ -138,7 +137,7 @@ The working of the conversion script has been shown on a recording of a particip
 Even though the update to gazeNet 0.1 has increased useability there is still a lot of work that can be done in order to make this tool even more accessible. Especially considering the framework, as it is now, still only being a proof-of-concept already being so valuable, the potential cannot be underestimated. Areas of further development should either improve gazeNet in functionality or in ease of use.
 
 \subsection{Functionality}
-At the time of writing the pretrained neural network can only label fixations, saccades and post saccadic oscillations. Logically it would make sense to expand the types of events such as continuos pursuit that can be detected. One way to realize this would be to train a new model including data containing also said event types. This would allow the user to choose the model that best fits their needs. The challenge hereby, apart from ``obtaining reliably coded eye-tracking data'' \citet{zemblys2018gazeNet}, lies in training an algorithm, that ``can perform as well as human expert coders'' \citet{zemblys2018gazeNet}. The generation of synthetic training data necessary for creating a new model might differ, when more event types are added. It has also yet to be seen if adding even only one new event type to be recognized has a negative impact on labelling accuracy. If this should be the case, a possible solution might be to change the architecture of the neural network.
+At the time of writing the pretrained neural network can only label fixations, saccades and post saccadic oscillations. Logically it would make sense to expand the types of events such as continuos pursuit that can be detected. One way to realize this would be to train a new model including data containing also said event types. This would allow the user to choose the model that best fits their needs. The challenge hereby, apart from ``obtaining reliably coded eye-tracking data'' \cite{zemblys2018gazeNet}, lies in training an algorithm, that ``can perform as well as human expert coders'' \cite{zemblys2018gazeNet}. The generation of synthetic training data necessary for creating a new model might differ, when more event types are added. It has also yet to be seen if adding even only one new event type to be recognized has a negative impact on labelling accuracy. If this should be the case, a possible solution might be to change the architecture of the neural network.
 
 Providing a new pretrained model for a different eye-tracking scenario is a viable path for further development. Hardware acceleration will come back into play here, as the training of a new model is computationally intensive. The use of hardware acceleration would therefore be desirable, but as mentioned before, would need to be implemented in a way that does not cause problems on Windows machines and supports a broader variety of hardware configurations.
 
@@ -157,6 +156,6 @@ Taking this thought even further, the user could be provided with a graphical us
 \end{itemize}
 
 
-\bibliographystyle{plainnat}
+\bibliographystyle{ieeetr}
 \bibliography{gazeNet.bib}
 \end{document}
