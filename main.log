@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  26 OCT 2023 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.10.5)  26 OCT 2023 19:01
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -307,30 +307,30 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 50.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-) [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 66.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 66.
+ [1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 75.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 89.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 82.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 82.
-<./images/TH34_img_Europe_labelled_MN.png, id=91, 722.7pt x 433.62pt>
+) [2]
+<./images/TH34_img_Europe_labelled_MN.png, id=108, 722.7pt x 433.62pt>
 File: ./images/TH34_img_Europe_labelled_MN.png Graphic file (type png)
 <use ./images/TH34_img_Europe_labelled_MN.png>
-Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 113.
+Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 127.
 (pdftex.def)             Requested size: 309.60315pt x 185.75822pt.
- [2]
-<./images/Kreuze_Random Recording1_short.png, id=106, 722.7pt x 433.62pt>
+<./images/Kreuze_Random Recording1_short.png, id=115, 722.7pt x 433.62pt>
 File: ./images/Kreuze_Random Recording1_short.png Graphic file (type png)
 <use ./images/Kreuze_Random Recording1_short.png>
-Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 131.
+Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 145.
 (pdftex.def)             Requested size: 309.60315pt x 185.75822pt.
- [3 <./images/TH34_img_Europe_labelled_MN.png>] (./main.bbl)
+ (./main.bbl [3])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -344,27 +344,27 @@ Before submitting the final camera ready copy, remember to:
 
 [4
 
- <./images/Kreuze_Random Recording1_short.png>] (./main.aux)
+ <./images/TH34_img_Europe_labelled_MN.png> <./images/Kreuze_Random Recording1_short.png>] (./main.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 62EF0408C692D8A082430CFE6DB40E8C;1821.
+(rerunfilecheck)             Checksum: F9F14F7A558C2FD939DA73FF801637D9;2152.
  ) 
 Here is how much of TeX's memory you used:
- 9364 strings out of 474928
- 151074 string characters out of 5759533
- 1941791 words of memory out of 5000000
- 30791 multiletter control sequences out of 15000+600000
- 590630 words of font info for 94 fonts, out of 8000000 for 9000
+ 9369 strings out of 474928
+ 151130 string characters out of 5759533
+ 1942791 words of memory out of 5000000
+ 30793 multiletter control sequences out of 15000+600000
+ 591737 words of font info for 95 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1088b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (4 pages, 187410 bytes).
+ 75i,11n,79p,1088b,562s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 193308 bytes).
 PDF statistics:
- 149 PDF objects out of 1000 (max. 8388607)
- 129 compressed objects within 2 object streams
- 26 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 162 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 139 words of extra memory for PDF output out of 10000 (max. 10000000)
 
