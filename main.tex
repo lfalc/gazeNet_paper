@@ -2,6 +2,7 @@
 \usepackage{natbib}
 \usepackage{graphicx}
 \usepackage{hyperref}
+\usepackage{dblfloatfix}
 \graphicspath{{./images/}}
 
 \begin{document}
@@ -109,7 +110,7 @@ In summary hardware acceleration would be a nice feature to have, but would need
 
 \begin{figure*}
     \centering
-    \includegraphics[width=0.7\linewidth]
+    \includegraphics[width=0.6\linewidth]
     {TH34_img_Europe_labelled_MN}
     \label{fig:lund2013}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations.}
@@ -125,11 +126,13 @@ In \citet{zemblys2018gazeNet} the authors rely heavily on the lund2013-image-tes
 
 The working of the conversion script has been shown on a recording of a participant looking at randomly appearing crosses on a screen. Figure \ref{fig:kreuze} shows the output of gazeNet 0.1 on the recording. The results are comparable to the results presented in \citet{zemblys2018gazeNet}.
 
-\begin{figure}
-    \includegraphics[width=\linewidth]{Kreuze_Random Recording1_short}
+\begin{figure*}
+    \centering
+    \includegraphics[width=0.6\linewidth]
+    {Kreuze_Random Recording1_short}
     \label{fig:kreuze}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations. It should be noted that the first two seconds of the recording contain the calibration points of the eye tracker. The calibration process contains events on which gazeNet is not trained. Therefore the labelling is insignificant.}
-\end{figure}
+\end{figure*}
 
 \section{Future work}
 Even though the update to gazeNet 0.1 has increased useability there is still a lot of work that can be done in order to make this tool even more accessible. Especially considering the framework, as it is now, still only being a proof-of-concept already being so valuable, the potential cannot be underestimated. Areas of further development should either improve gazeNet in functionality or in ease of use.
