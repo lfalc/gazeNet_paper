@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1698339932 "main.aux" "main.bbl" "main" 1698339933 0
+["bibtex main"] 1698390804 "main.aux" "main.bbl" "main" 1698391390 0
   "./gazeNet.bib" 1698336415 1359 6612ce5904d572bcca9277557d603adf ""
   "/usr/local/texlive/2023/texmf-dist/bibtex/bst/base/ieeetr.bst" 1292289607 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "main.aux" 1698339933 4694 ad534e52eb0ee8a6c8c6f3dcad1b17c4 "pdflatex"
+  "main.aux" 1698391389 4630 9f33725afe1efa284c8194bf461b3f20 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1698339932 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1698339933 0
-  "/home/lorenz/gazeNet_paper/main.tex" 1698339931 18074 772a575a5166850a2f4cfc252e0dae8a ""
+["pdflatex"] 1698391388 "/home/lorenz/gazeNet_paper/main.tex" "main.pdf" "main" 1698391390 0
+  "/home/lorenz/gazeNet_paper/main.tex" 1698391388 18160 52c3d33caa5e1e24f99ad890b52917d4 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/adobe/courier/pcrr7t.tfm" 1136768653 960 379cc0019370a9e0208a0a3f949f847a ""
@@ -90,10 +90,10 @@
   "/usr/local/texlive/2023/texmf.cnf" 1696492238 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "images/Kreuze_Random Recording1_short.png" 1697016522 88642 2cfc178223bad493bb77fe2a5300738d ""
   "images/TH34_img_Europe_labelled_MN.png" 1697016522 83328 3b0e30f99cbce9a359eb8ed7f1a99525 ""
-  "main.aux" 1698339933 4694 ad534e52eb0ee8a6c8c6f3dcad1b17c4 "pdflatex"
-  "main.bbl" 1698339932 768 6afd4e6f95c5b422f40f85a5f58cbd35 "bibtex main"
-  "main.out" 1698339933 2152 f9f14f7a558c2fd939da73ff801637d9 "pdflatex"
-  "main.tex" 1698339931 18074 772a575a5166850a2f4cfc252e0dae8a ""
+  "main.aux" 1698391389 4630 9f33725afe1efa284c8194bf461b3f20 "pdflatex"
+  "main.bbl" 1698390804 768 6afd4e6f95c5b422f40f85a5f58cbd35 "bibtex main"
+  "main.out" 1698391389 2152 f9f14f7a558c2fd939da73ff801637d9 "pdflatex"
+  "main.tex" 1698391388 18160 52c3d33caa5e1e24f99ad890b52917d4 ""
   (generated)
   "main.aux"
   "main.log"
