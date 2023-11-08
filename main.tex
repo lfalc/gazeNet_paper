@@ -1,79 +1,80 @@
-\documentclass[conference]{IEEEtran}
-\usepackage{graphicx}
+\documentclass[acmlarge]{acmart}
+\usepackage{natbib}
 \usepackage{hyperref}
-\usepackage{dblfloatfix}
+\usepackage{graphicx}
+\setlength{\headheight}{19pt}
 \graphicspath{{./images/}}
 
+
+
 \begin{document}
-\title{Update for gazeNet, the end-to-end eye-movement event detection framework with deep neural networks\\
-% \thanks{Identify applicable funding agency here. If none, delete this.}
+\title{End to End Eye Movement Event Detection with gazeNet}
+
+\author{Lorenz Falcioni}
+\affiliation{
+    \institution{Faculty of EE and IT, OTH Regensburg}
+    \city{Regensburg}
+    \country{Germany}
 }
+\email{lorenz2.falcioni@st.oth-regensburg.de}
 
-\author{\IEEEauthorblockN{1
-\textsuperscript{st} Lorenz Falcioni}
-\IEEEauthorblockA{
-\textit{Faculty of EE and IT} \\
-\textit{OTH Regensburg}\\
-Regensburg, Germany \\
-lorenz2.falcioni@st.oth-regensburg.de}
-
-\and
-\IEEEauthorblockN{2
-\textsuperscript{nd} Timur Ezer}
-\IEEEauthorblockA{
-\textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{OTH Regensburg}\\
-Regensburg, Germany \\
-timur.ezer@oth-regensburg.de}
-
-\and
-\IEEEauthorblockN{3
-\textsuperscript{rd} Jürgen Mottok}
-\IEEEauthorblockA{
-\textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{OTH Regensburg}\\
-Regensburg, Germany \\
-juergen.mottok@oth-regensburg.de}
-
-\and
-\IEEEauthorblockN{4
-\textsuperscript{rd} Max Mustermann}
-\IEEEauthorblockA{
-\textit{Laboratory for Safe and Secure Systems (LaS³)} \\
-\textit{OTH Regensburg}\\
-Regensburg, Germany \\
-max.mustermann@oth-regensburg.de}
+\author{Timur Ezer}
+\affiliation{
+    \institution{Laboratory for Safe and Secure Systems (LaS³), OTH Regensburg}
+    \city{Regensburg}
+    \country{Germany}
 }
+\email{timur.ezer@oth-regensburg.de}
 
+\author{Jürgen Mottok}
+\affiliation{
+    \institution{Laboratory for Safe and Secure Systems (LaS³), OTH Regensburg}
+    \city{Regensburg}
+    \country{Germany}
+}
+\email{juergen.mottok@oth-regensburg.de}
+
+\author{Max Mustermann}
+\affiliation{
+    \institution{Laboratory for Safe and Secure Systems (LaS³), OTH Regensburg}
+    \city{Regensburg}
+    \country{Germany}
+}
+\email{max.mustermann@oth-regensburg.de}
+
+\begin{abstract}
+    The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a framework for creating event detectors that do not require hand-crafted signal features or signal thresholding. Despite the authors presenting the algorithm as a proof of concept, the pretrained model spawned in the development process of the  framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
+\end{abstract}
 
 \maketitle
-\section{Abstract}
-The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a framework for creating event detectors that do not require hand-crafted signal features or signal thresholding. Despite the authors presenting the algorithm as a proof of concept, the pretrained model spawned in the development process of the  framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
 
+\ccsdesc[500]{Human-centered computing~Human computer interaction (HCI)~Interaction techniques}
+
+\keywords{eye-tracking, deep learning, event detection, gazeNet}
 
 \section{Introduction}
-A core aspect of eye-tracking research is \emph{event detection}, meaning the classification of sections of eye-tracking data into different types of eye movements such as fixations and saccades. For the longest time eye-tracking data analysis has relied mainly on "traditional" algorithms, which are based on hand-crafted features and thresholds. \cite{zemblys2018gazeNet} 
+A core aspect of eye-tracking research is \emph{event detection}, meaning the classification of sections of eye-tracking data into different types of eye movements such as fixations and saccades. For the longest time eye-tracking data analysis has relied mainly on "traditional" algorithms, which are based on hand-crafted features and thresholds. \cite{zemblys2018gazeNet}
 
 Deep learning in the field of eye-tracking event detection has only recently appeared in the works of Hoppe and Bulling \cite{Hoppe2016EndtoEndEM} as means of training a neural network. While they ``use a Fast Fourier transform to extract a number of frequency components (features) first and then use these as input to their algorithm'' \cite{Hoppe2016EndtoEndEM}, Zemblys et al. \cite{zemblys2018gazeNet} have taken this approach one step further by creating an entire \emph{framework} for the creation of event detectors that do not require hand-crafted signal features or signal thresholding.
 
-Zemblys et al. \cite{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \cite*{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation. \cite{van_Rossum_2009}
+Zemblys et al. \cite{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \cite{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation. \cite{van_Rossum_2009}
 
 This work aims to take the first step towards a more user-friendly interface for the \emph{application} of gazeNet. This is done by providing a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet and modifying the partly outdated code.
 
 
 \section{Methodology}
-\subsection{Research Questions and Hypotheses} 
+\subsection{Research Questions and Hypotheses}
 \begin{itemize}
     \item \textbf{RQ1:} How can the usability of gazeNet be improved?
-        \begin{itemize}
-            \item \textbf{H1.1:} Updating the code to Python 3.8 and PyTorch 2.1.
-            \item \textbf{H2.1:} Modifying the code to be interpretable on both Windows-machines and UNIX-like operating systems.
-        \end{itemize}
+          \begin{itemize}
+              \item \textbf{H1.1:} Updating the code to Python 3.8 and PyTorch 2.1.
+              \item \textbf{H2.1:} Modifying the code to be interpretable on both Windows-machines and UNIX-like operating systems.
+          \end{itemize}
     \item \textbf{RQ2:} How can the functionality of gazeNet be improved?
-        \begin{itemize}
-            \item \textbf{H2.1:} Addition of a conversion script for eye-tracking data.
-            \item \textbf{H2.2:} By providing a graphical user interface (GUI) to interact with gazeNet.
-        \end{itemize}
+          \begin{itemize}
+              \item \textbf{H2.1:} Addition of a conversion script for eye-tracking data.
+              \item \textbf{H2.2:} By providing a graphical user interface (GUI) to interact with gazeNet.
+          \end{itemize}
 \end{itemize}
 
 \subsection{Metrics}
@@ -89,7 +90,7 @@ This work aims to take the first step towards a more user-friendly interface for
 \subsubsection{gazeNet}
 Zemblys et al. \cite{zemblys2018gazeNet} have created gazeNet, a python framework for eye-movement event detection with deep neural networks. At the core of the presented framework lies a convolutional neural network (CNN) which can be trained to detect eye-movement events. Its architecture is inspired by Deep Speech 2, an end-to-end speech recognition neural network (\cite{deep_speech_2,zemblys2018gazeNet}). Raw eye-tracking data in the form of a series of samples of x and y coordinates of the eye position is fed into the CNN. The CNN then annotates the data with event labels.
 
-The training process of gazeNet relies heavily on the generation of synthetic training data using \href{https://github.com/r-zemblys/gazeGenNet}{gazeGenNet}, a recurrent neural network (RNN) with a fully connected layer at the end. The RNN is trained on a small amount of manually labeled \emph{real} eye-tracking data and then used to generate large amounts of synthetic data. The synthetic data in turn is used to train gazeNet itself. This intermediary step is necessary, as the amount of real eye-tracking data is limited and would be insufficient for the training of gazeNet. \cite{zemblys2018gazeNet}
+The training process of gazeNet relies heavily on the generation of synthetic training data using, a recurrent neural network (RNN) with a fully connected layer at the end. The RNN is trained on a small amount of manually labeled \emph{real} eye-tracking data and then used to generate large amounts of synthetic data. The synthetic data in turn is used to train gazeNet itself. This intermediary step is necessary, as the amount of real eye-tracking data is limited and would be insufficient for the training of gazeNet. \cite{zemblys2018gazeNet}
 
 Zemblys et al. \cite{zemblys2018gazeNet} used manually annotated by expert coders eye-tracker data from the Humanities Lab, Lund University (hereafter called the \emph{Lund2013} dataset) to prove the working of gazeNet. Parts of the dataset that included events other than fixations, saccades or post saccadic oscillations were discarded, as the scope of the paper was limited to the mentioned event types. From the remaining 20 trials six were used as training data. Thanks to the above described method of data augmentation the authors were able to train gazeNet on data extended by a factor of 450x resulting in 326 minutes of synthetic data.
 
@@ -105,25 +106,27 @@ The original gazeNet was developed using Python 2.7 and PyTorch 0.2.0\_4 \cite{z
 
 \begin{itemize}
     \item Since Python 3.0 the \verb|print| statement is a function. Therefore parentheses are required around the arguments. \cite{van_Rossum_2009}
-    
-    Example in utils.py: Line 68 has been changed from \verb|print "TRAINING PARAMETERS CHANGED"| into \verb|print("TRAINING PARAMETERS CHANGED")|.
+
+          Example in utils.py: Line 68 has been changed from \verb|print "TRAINING PARAMETERS CHANGED"| into \verb|print("TRAINING PARAMETERS CHANGED")|.
 
     \item The division operator \verb|/| returns a float instead of an integer since Python 3.0. This causes an error in model.py line 174 when calculating the padding for the convolutional stack of the neural network, as PyTorch expects an integer \cite{Contributors_2023}. In order to meet the requirements of the framework the floor division operator \verb|//| is used, which returns an integer \cite{van_Rossum_2009}.
-    
+
     \item Python 3.0 has seen a major overhaul of the dictionary data type. In-place-modifications of dictionaries are not possible anymore. Therefore in model.py line 48 a copy of the dictionary is created which the replaces the original dictionary.
-    
-    In tt\_spit.py line 274 a copy of the dictionary is created to avoid modifying the original dictionary while iterating over it \cite{van_Rossum_2009}.
-    
+
+          In tt\_spit.py line 274 a copy of the dictionary is created to avoid modifying the original dictionary while iterating over it \cite{van_Rossum_2009}.
+
     \item The syntax for checking if a key is present in a dictionary has changed since Python 3.0. The \verb|has_key()| method has been removed. Instead the \verb|in| operator is used \cite{van_Rossum_2009}. This change has been made several times in the code of the framework. For example in model.py line 53 the statement \verb|package['state_dict'].has_key(k)| has been replaced by \verb|k in package['state_dict']|. See also ETeval.py line 180 and the following and etdata.py line 177.
 
     \item Further simplification has been applied to \verb|for| loops. The \verb|iteritems()| method has been removed from the dictionary data type since Python 3.0. Instead the \verb|items()| method is used \cite{van_Rossum_2009}. In etdata.py line 265 the statement \verb|self.data.iteritems():| has been replaced by \verb|self.data.items():|.
-    
+
 \end{itemize}
 
 Minor changes have been made in order to comply with PyTorch 2.1 regarding datatypes. Other packages used in the original code have not caused any problems. Nevertheless a requirement file has been provided to ensure that the user has the correct versions of the packages installed.
 
 
 \subsubsection{Platform Independence}
+Output can be seen in ~\ref{fig:lund2013}
+
 Hardware acceleration based on Nvidia Cuda is implemented in gazeNet to speed up the training process. In this context worker threads are used to load data in parallel to keep the GPU busy, reducing time consumption even further. In order to achieve platform independence the default number of worker threads in data loading has been set to 0. While strictly speaking this change is not a necessity as the number of worker threads can be set via command line, it is worthwhile making for several reasons.
 
 Most importantly the use of hardware acceleration requires the user to have a Nvidia GPU in their system. This is not always the case and should therefore not be assumed.
@@ -134,13 +137,12 @@ Lastly, having a worker thread activated causes the evaluation script run\_gazeN
 
 In summary hardware acceleration would be a nice feature to have, but would need to be implemented in a way that does not cause problems on Windows machines and supports a broader variety of hardware configurations, which is beyond the scope of this work.
 
-\begin{figure*}
-    \centering
-    \includegraphics[width=0.6\linewidth]
-    {TH34_img_Europe_labelled_MN}
-    \label{fig:lund2013}
+\begin{figure}
+    \Description{Source: self-made}
     \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations.}
-\end{figure*}
+    \label{fig:lund2013}
+    \includegraphics[width=0.6\linewidth]{TH34_img_Europe_labelled_MN}
+\end{figure}
 
 
 \subsubsection{Conversion script}
@@ -150,7 +152,7 @@ In this particular case the file to be converted stems from an eye tracker made 
 
 \section{Results}
 \subsection{Validation of gazeNet 0.1}
-The authors rely heavily on the lund2013-image-test dataset in the development of their framework \cite{zemblys2018gazeNet}, which makes it a good choice for validation of the updated gazeNet. Figure \ref{fig:lund2013} shows the output of gazeNet 0.1 on the lund2013-image-test dataset. The results are comparable to the results presented in \cite{zemblys2018gazeNet}. 
+The authors rely heavily on the lund2013-image-test dataset in the development of their framework \cite{zemblys2018gazeNet}, which makes it a good choice for validation of the updated gazeNet. Figure \ref{fig:lund2013} shows the output of gazeNet 0.1 on the lund2013-image-test dataset. The results are comparable to the results presented in \cite{zemblys2018gazeNet}.
 
 The working of the conversion script has been shown on a recording of a participant looking at randomly appearing crosses on a screen. Figure \ref{fig:kreuze} shows the output of gazeNet 0.1 on the recording. The results are comparable to the results presented in \cite{zemblys2018gazeNet}.
 
@@ -158,13 +160,13 @@ The working of the conversion script has been shown on a recording of a particip
 
 \subsection{Functionality}
 
-\begin{figure*}
-    \centering
+\begin{figure}
+    \Description{Source: self-made}
+    \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations. It should be noted that the first two seconds of the recording contain the calibration points of the eye tracker. The calibration process contains events on which gazeNet is not trained. Therefore the labelling is insignificant.}
+    \label{fig:kreuze}
     \includegraphics[width=0.6\linewidth]
     {Kreuze_Random Recording1_short}
-    \label{fig:kreuze}
-    \caption{The two graphs on the left show the x and y coordinates of the gaze position in degrees over time in seconds. The graph on the right resembles the gaze position in the x-y-plane. The red dots represent fixations, the blue dots represent saccades and the green dots represent post saccadic oscillations. It should be noted that the first two seconds of the recording contain the calibration points of the eye tracker. The calibration process contains events on which gazeNet is not trained. Therefore the labelling is insignificant.}
-\end{figure*}
+\end{figure}
 
 
 \section{Limitations and future work}
@@ -186,15 +188,13 @@ Taking this thought even further, the user could be provided with a graphical us
 \section{Discussion}
 \begin{itemize}
     \item importance of providing pretrained NN
-    
     \item training scripts not updated, but very important
-
     \item manual work still necessary in synthetic data generation
 \end{itemize}
 
 \section{Acknowledgements}
 We would like to thank the authors of gazeNet for providing the pretrained model and the code for the framework. We would also like to thank Prof. Dr. Jürgen Mottok and his team, especially Timur Ezer, for their support and guidance throughout the project and giving undergraduate students the opportunity to work on such an interesting topic and contribute to the field of eye-tracking research.
 
-\bibliographystyle{ieeetr}
-\bibliography{gazeNet.bib}
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{gazeNet}
 \end{document}

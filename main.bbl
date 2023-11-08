@@ -1,18 +1,92 @@
-\begin{thebibliography}{1}
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
 
-\bibitem{zemblys2018gazeNet}
-R.~Zemblys, D.~C. Niehorster, and K.~Holmqvist, ``gazenet: End-to-end eye-movement event detection with deep neural networks,'' {\em Behavior research methods}, 2018.
+\begin{thebibliography}{5}
 
-\bibitem{Hoppe2016EndtoEndEM}
-S.~Hoppe and A.~Bulling, ``End-to-end eye movement detection using convolutional neural networks,'' {\em ArXiv}, vol.~abs/1609.02452, 2016.
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
 
-\bibitem{deep_speech_2}
-D.~Amodei, R.~Anubhai, and E.~Battenberg, ``Deep speech 2: End-to-end speech recognition in english and mandarin,'' {\em Proceedings of Machine Learning Research}, 2015.
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
 
-\bibitem{van_Rossum_2009}
-G.~van Rossum, ``Whats new in python 3.0,'' Feb 2009.
+\bibitem[Amodei et~al\mbox{.}(2015)]%
+        {deep_speech_2}
+\bibfield{author}{\bibinfo{person}{Dario Amodei}, \bibinfo{person}{Rishita Anubhai}, {and} \bibinfo{person}{Eric Battenberg}.} \bibinfo{year}{2015}\natexlab{}.
+\newblock \showarticletitle{Deep Speech 2: End-to-End Speech Recognition in English and Mandarin}.
+\newblock \bibinfo{journal}{\emph{Proceedings of Machine Learning Research}}  \bibinfo{volume}{48} (\bibinfo{year}{2015}), \bibinfo{pages}{3--12}.
+\newblock
 
-\bibitem{Contributors_2023}
-C.~PyTorch, ``Pytorch documentation,'' 2023.
+
+\bibitem[Hoppe and Bulling(2016)]%
+        {Hoppe2016EndtoEndEM}
+\bibfield{author}{\bibinfo{person}{Sabrina Hoppe} {and} \bibinfo{person}{Andreas Bulling}.} \bibinfo{year}{2016}\natexlab{}.
+\newblock \showarticletitle{End-to-End Eye Movement Detection Using Convolutional Neural Networks}.
+\newblock \bibinfo{journal}{\emph{ArXiv}}  \bibinfo{volume}{abs/1609.02452} (\bibinfo{year}{2016}), \bibinfo{pages}{1--15}.
+\newblock
+\urldef\tempurl%
+\url{https://api.semanticscholar.org/CorpusID:5938282}
+\showURL{%
+\tempurl}
+
+
+\bibitem[PyTorch(2023)]%
+        {Contributors_2023}
+\bibfield{author}{\bibinfo{person}{Contributors PyTorch}.} \bibinfo{year}{2023}\natexlab{}.
+\newblock \bibinfo{title}{PYTORCH documentation}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://pytorch.org/docs/stable/index.html}
+\showURL{%
+\tempurl}
+
+
+\bibitem[van Rossum(2009)]%
+        {van_Rossum_2009}
+\bibfield{author}{\bibinfo{person}{Guido van Rossum}.} \bibinfo{year}{2009}\natexlab{}.
+\newblock \bibinfo{title}{Whats new in python 3.0}.
+\newblock
+\newblock
+\urldef\tempurl%
+\url{https://docs.python.org/3.0/whatsnew/3.0.html#overview-of-syntax-changes}
+\showURL{%
+\tempurl}
+
+
+\bibitem[Zemblys et~al\mbox{.}(2018)]%
+        {zemblys2018gazeNet}
+\bibfield{author}{\bibinfo{person}{Raimondas Zemblys}, \bibinfo{person}{Diederick~C Niehorster}, {and} \bibinfo{person}{Kenneth Holmqvist}.} \bibinfo{year}{2018}\natexlab{}.
+\newblock \showarticletitle{gazeNet: End-to-end eye-movement event detection with deep neural networks}.
+\newblock \bibinfo{journal}{\emph{Behavior research methods}} \bibinfo{volume}{1}, \bibinfo{number}{51} (\bibinfo{year}{2018}), \bibinfo{pages}{840--864}.
+\newblock
+
 
 \end{thebibliography}
