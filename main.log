@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  9 NOV 2023 09:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.11.7)  9 NOV 2023 09:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -824,94 +824,94 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 55.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 10.0pt on input line 56.
-LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 68.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.0pt on input line 68.
  [1.1{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_25tcsq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_naooyc.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+LaTeX Font Info:    Font shape `OT1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 71.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 83.
-LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 101.
+(Font)              scaled to size 10.0pt on input line 85.
+LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 102.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 101.
+(Font)              scaled to size 10.0pt on input line 102.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
-LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF on input line 108.
+(Font)              scaled to size 8.0pt on input line 107.
+LaTeX Font Info:    Trying to load font information for TS1+LinuxBiolinumT-TLF on input line 107.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/libertine/TS1LinuxBiolinumT-TLF.fd
 File: TS1LinuxBiolinumT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxBiolinumT-TLF.
 )
 LaTeX Font Info:    Font shape `TS1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 108.
+(Font)              scaled to size 8.0pt on input line 107.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `LinuxBiolinumT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
  [2.2{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/libertine/lbtn_afusau.enc}{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-t1-4.enc}]
-LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 118.
+LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 119.
  (/usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 118.
+(Font)              scaled to size 10.0pt on input line 119.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `zi4' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (4.49144pt too wide) in paragraph at lines 118--119
+Overfull \hbox (4.49144pt too wide) in paragraph at lines 119--120
 \T1/LinuxLibertineT-TLF/m/n/10 (-20) code of the frame-work. For ex-am-ple in model.py line 53 the state-ment [][]\T1/zi4/m/n/10 package[\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 state_dict\TS1/zi4/m/n/10 '\T1/zi4/m/n/10 ].has_key(k)
  []
 
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 142.
-<./images/TH34_img_Europe_labelled_MN.png, id=125, 722.7pt x 433.62pt>
+(Font)              scaled to size 9.0pt on input line 141.
+<./images/TH34_img_Europe_labelled_MN.png, id=127, 722.7pt x 433.62pt>
 File: ./images/TH34_img_Europe_labelled_MN.png Graphic file (type png)
 <use ./images/TH34_img_Europe_labelled_MN.png>
-Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 144.
-(pdftex.def)             Requested size: 271.37975pt x 162.82544pt.
-[3.3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}]
-<./images/Kreuze_Random Recording1_short.png, id=140, 722.7pt x 433.62pt>
+Package pdftex.def Info: ./images/TH34_img_Europe_labelled_MN.png  used on input line 143.
+(pdftex.def)             Requested size: 452.295pt x 271.37573pt.
+[3.3{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc}] [4.4 <./images/TH34_img_Europe_labelled_MN.png>]
+<./images/Kreuze_Random Recording1_short.png, id=148, 722.7pt x 433.62pt>
 File: ./images/Kreuze_Random Recording1_short.png Graphic file (type png)
 <use ./images/Kreuze_Random Recording1_short.png>
-Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 168.
-(pdftex.def)             Requested size: 271.37975pt x 162.82544pt.
- [4.4 <./images/TH34_img_Europe_labelled_MN.png>] [5.5 <./images/Kreuze_Random Recording1_short.png>] (./main.bbl
+Package pdftex.def Info: ./images/Kreuze_Random Recording1_short.png  used on input line 171.
+(pdftex.def)             Requested size: 452.295pt x 271.37573pt.
+ [5.5 <./images/Kreuze_Random Recording1_short.png>] (./main.bbl
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
 (Font)              scaled to size 8.0pt on input line 44.
 LaTeX Info: Redefining \tempurl on input line 67.
 LaTeX Info: Redefining \tempurl on input line 79.
-) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+ [6.6]) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
 File: se-pdfdoc.def 2019/11/29 v1.12 stringenc: PDFDocEncoding
 ) (/usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 File: se-utf8.def 2019/11/29 v1.12 stringenc: UTF-8
-) [6.6] (./main.aux)
+) [7.7] (./main.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-01>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 2487CDA628870BDC93492BD3D2F9D347;2169.
+(rerunfilecheck)             Checksum: 6770479A548606D1910A4D8678E7C082;2334.
  ) 
 Here is how much of TeX's memory you used:
- 21078 strings out of 474272
- 339734 string characters out of 5747519
+ 21084 strings out of 474272
+ 339826 string characters out of 5747519
  1944530 words of memory out of 5000000
- 42375 multiletter control sequences out of 15000+600000
+ 42379 multiletter control sequences out of 15000+600000
  710412 words of font info for 321 fonts, out of 8000000 for 9000
  1302 hyphenation exceptions out of 8191
- 90i,12n,131p,1039b,631s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,13n,131p,1039b,698s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2023/texmf-dist/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinBiolinumTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineT.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTB.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/libertine/LinLibertineTI.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/newtx/txsys.pfb>
-Output written on main.pdf (6 pages, 557079 bytes).
+Output written on main.pdf (7 pages, 557128 bytes).
 PDF statistics:
- 223 PDF objects out of 1000 (max. 8388607)
- 187 compressed objects within 2 object streams
- 39 named destinations out of 1000 (max. 500000)
+ 231 PDF objects out of 1000 (max. 8388607)
+ 194 compressed objects within 2 object streams
+ 41 named destinations out of 1000 (max. 500000)
  89243 words of extra memory for PDF output out of 106986 (max. 10000000)
 

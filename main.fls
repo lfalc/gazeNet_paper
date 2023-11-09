@@ -349,17 +349,6 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinBiolinumTB-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTB-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map
@@ -386,6 +375,17 @@ INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineT
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-t1--base.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineT-tlf-ts1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ts1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineT-tlf-ot1.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/nxlmi.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsy.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexx.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/nxlmia.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsym.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxsyc.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/newtx/ntxexa.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTB-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinBiolinumTI-tlf-t1.tfm
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
 INPUT /usr/local/texlive/2023/texmf-dist/tex/latex/inconsolata/t1zi4.fd
@@ -419,24 +419,24 @@ INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT ./images/TH34_img_Europe_labelled_MN.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/inconsolata/i4-ts1.enc
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
-INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinBiolinumT-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinBiolinumT-tlf-t1--base.tfm
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
+INPUT ./images/Kreuze_Random Recording1_short.png
 INPUT ./main.bbl
 INPUT ./main.bbl
 INPUT main.bbl
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1.tfm
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
-INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/vf/public/libertine/LinLibertineTI-tlf-t1.vf
 INPUT /usr/local/texlive/2023/texmf-dist/fonts/tfm/public/libertine/LinLibertineTI-tlf-t1--base.tfm
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-pdfdoc.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
+INPUT /usr/local/texlive/2023/texmf-dist/tex/generic/stringenc/se-utf8.def
 INPUT main.aux
 INPUT ./main.out
 INPUT ./main.out
