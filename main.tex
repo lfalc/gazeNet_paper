@@ -43,7 +43,7 @@
 % \email{max.mustermann@oth-regensburg.de}
 
 \begin{abstract}
-    The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a framework for creating event detectors that do not require hand-crafted signal features or signal thresholding. Despite the authors presenting the algorithm as a proof of concept, the pretrained model spawned in the development process of the  framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
+    The application of deep learning techniques in the field of eye-tracking data analysis has brought forth gazeNet, a framework for creating event detectors that do not require hand-crafted signal features or signal thresholding. Despite the authors presenting the algorithm as a proof of concept, the pretrained model spawned in the development process of the framework is kindly provided by the authors free to use. The core aspect of this work is streamlining the usage of said pretrained model, by evolving the framework one increment further towards a ready-to-use tool. Modifications of the original code have been made to meet the requirements both of the used programming language i.e. Python 2.7 to Python 3.8, as well as the used packages. The existing code has also been modified to be interpretable on Windows-machines. A conversion script for eye-tracking data serves as a complement to the original framework facilitating the application in future research.
 \end{abstract}
 
 \maketitle
@@ -57,7 +57,7 @@ A core aspect of eye-tracking research is \emph{event detection}, meaning the cl
 
 Deep learning in the field of eye-tracking event detection has only recently appeared in the works of Hoppe and Bulling \cite{Hoppe2016EndtoEndEM} as means of training a neural network. While they ``use a Fast Fourier transform to extract a number of frequency components (features) first and then use these as input to their algorithm'' \cite{Hoppe2016EndtoEndEM}, Zemblys et al. \cite{zemblys2018gazeNet} have taken this approach one step further by creating an entire \emph{framework} for the creation of event detectors that do not require hand-crafted signal features or signal thresholding.
 
-Zemblys et al. \cite{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \cite{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation. \cite{van_Rossum_2009}
+Zemblys et al. \cite{zemblys2018gazeNet} created \emph{gazeNet} ``as a proof of concept [...] not to be understood as an off-the-shelf algorithm that can be employed instantly with no preparation and no understanding of how it works.'' \cite{zemblys2018gazeNet} In fact the use of gazeNet can be cumbersome, because it lacks means of analyzing eye-tracking data from other sources than the one used by the authors. Furthermore the code is written in Python 2.7, which is no longer supported by the Python Software Foundation \cite{van_Rossum_2009}.
 
 This work aims to take the first step towards a more user-friendly interface for the \emph{application} of gazeNet. This is done by providing a template for a script, which converts eye-tracking-data provided by the user in the appropriate format for gazeNet and modifying the partly outdated code.
 
@@ -79,14 +79,10 @@ This work aims to take the first step towards a more user-friendly interface for
           \end{itemize}
 \end{enumerate}
 
-\subsection{Metrics}
-\subsubsection{Cohen's Kappa}
+\subsection{Research Question}
+Can the results of gazeNet be reproduced? Therefore we are using...
 
-\subsubsection{Supported Platforms}
-
-\subsubsection{Supported Eye Trackers}
-
-
+\subsection{Cohen's Kappa}
 
 \subsection{Update to gazeNet 0.1}
 Zemblys et al. \cite{zemblys2018gazeNet} have created gazeNet, a python framework for eye-movement event detection with deep neural networks. At the core of the presented framework lies a convolutional neural network (CNN) which can be trained to detect eye-movement events. Its architecture is inspired by Deep Speech 2, an end-to-end speech recognition neural network (\cite{deep_speech_2,zemblys2018gazeNet}). Raw eye-tracking data in the form of a series of samples of x and y coordinates of the eye position is fed into the CNN. The CNN then annotates the data with event labels.
@@ -190,6 +186,7 @@ Taking this thought even further, the user could be provided with a graphical us
 
 \section{Discussion}
 \begin{itemize}
+    \item justify qualitative analysis
     \item importance of providing pretrained NN
     \item training scripts not updated, but very important
     \item manual work still necessary in synthetic data generation
